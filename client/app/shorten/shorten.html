@@ -1,5 +1,11 @@
 <div id='container'>
 <!-- Your code here -->
+<form ng-submit="addLink()">
+  <input type='url' name='link' ng-model='link.url'/>
+  <input type='submit' value='Shorten'/>
+</form>
+
+<h1>{{ link }}</h1>
 
 </div>
 
