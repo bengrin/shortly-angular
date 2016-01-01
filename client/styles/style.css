@@ -40,6 +40,19 @@ h1 {
   text-align: center;
 }
 
+.logout {
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  float: right;
+}
+
+.logout:hover {
+  background-color: #ddd;
+}
 .navigation li a:hover {
   background-color: #ddd;
 }
@@ -113,6 +126,10 @@ input[type=url]:focus {
   outline: none;
 }
 
+input[type=submit] {
+  width: 374px;
+  border-radius: 0;
+}
 
 .error {
   border: red solid 4px;
